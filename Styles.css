@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Positive Impact Styles */
+.positive {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #d4edda;
+    background-color: #e6f7e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.positive h3 {
+    color: #155724;
+}
+
+/* Negative Impact Styles */
+.negative {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    background-color: #ffe6e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.negative h3 {
+    color: #721c24;
+}
+
+/* List Styles */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* Footer Styles (optional) */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    font-size: 0.9em;
+}
